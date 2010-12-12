@@ -83,11 +83,21 @@
     <Content Include="pics\item %282%29.jpg" />
     <Content Include="pics\item %283%29.jpg" />
     <Content Include="pics\item %284%29.jpg" />
+    <Content Include="pics\long-sleeves 3.jpg" />
     <Content Include="pics\moulinex-8724-6467922-1-catalog_grid_3.jpg" />
     <Content Include="pics\nia-1183-0523891-1-catalog_grid_3.jpg" />
     <Content Include="pics\offbox.jpg" />
+    <Content Include="pics\perfume 10 .jpg" />
     <Content Include="pics\police-5894-7899532-1-catalog_grid_3.jpg" />
+    <Content Include="pics\powerbank 2.jpg" />
     <Content Include="pics\samsung-1605-4174232-1-catalog_grid_3.jpg" />
+    <Content Include="pics\sandal 9 .jpg" />
+    <Content Include="pics\shal 5.jpg" />
+    <Content Include="pics\shaver 7.jpg" />
+    <Content Include="pics\watch 8.jpg" />
+    <Content Include="pics\yalda 1.jpg" />
+    <Content Include="pics\yazdbuf 4 .jpg" />
+    <Content Include="pics\_heater 6 .jpg" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

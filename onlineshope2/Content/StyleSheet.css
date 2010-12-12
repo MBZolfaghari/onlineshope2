@@ -8,6 +8,12 @@
     height: 20px;
 }
 
+
+.height40 {
+    height: 40px;
+}
+
+
 body {
     font-family: IranianSans;
     /*declaring default font*/
@@ -50,6 +56,10 @@ a , a:hover {
 
 .floatright{
     float:right;
+}
+
+.borderradius{
+    border-radius:4px;
 }
 
 
