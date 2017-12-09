@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="fonts\BNazanin.woff" />
     <None Include="packages.config" />
+    <Content Include="pics\bamilo-logo.png" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

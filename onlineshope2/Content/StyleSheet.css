@@ -14,6 +14,16 @@ a {
     
 }
 
+/*relative position*/
+.relative{
+    position:relative;
+}
+ 
+/*absolut position*/
+.absulot{
+    position:absolute;
+}
+
 /*header blue nav bar*/
 #bluenavigationbar {
     background-color: #1a365e;
@@ -92,4 +102,37 @@ nav#bluenavigationbar a {
     display:block;
     padding:10px 10px;
     
+}
+
+/*shoping btn on the top of the page*/
+#shopingbtn {
+    color: white;
+    background-color: #1a365e;
+    border:none;
+    height:35px;
+    width:35px;
+    border-radius:3px;
+}
+
+#searchbtn {
+    color: white;
+    background-color: #1a365e;
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 3px;
+    left:15px;
+
+}
+
+/*search box on the top of the page*/
+#searchinputbox{
+    border:1px solid;
+    height:35px;
+    border-radius:3px;
+    direction:rtl;
+}
+
+.margin15px{
+    margin:15px;
 }

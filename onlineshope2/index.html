@@ -9,7 +9,7 @@
     <title></title>
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <!--the blue navigation bar-->
         <div>
             <nav id="bluenavigationbar">
@@ -47,11 +47,35 @@
         </div>
 
         <!--the search row-->
-        <div class="container col-lg-8">
+        <div class="container col-lg-8 col-lg-pull-2 ">
+            <!-- giving 15px margin -->
+            <div class="margin15px">
 
-            <div> 
-                <img src=""
+            <!-- shoping area -->
+            <div class="col-lg-2 col-md-2 col-sm-2 ">
+                <!-- shoping btn -->
+                <button id="shopingbtn" class="glyphicon glyphicon-shopping-cart"></button>
+                <!-- shoping btn text -->
+                <span>سبد خرید</span>
             </div>
+
+            <!-- searching bar -->
+            <div class="col-lg-8  col-md-8 relative col-sm-8">
+                <!-- search input text -->
+                <input id="searchinputbox" class="col-lg-12" type="text" placeholder="جستجوی نام،برند، یا دستبندی کالا" />
+                <!-- searchoutput text -->
+                <button id="searchbtn" class="absulot">
+                    جستجو
+                </button>
+            </div>
+
+            <!-- logo div -->
+            <div class="col-lg-2  col-md-2 col-sm-2">
+                <img src="pics/bamilo-logo.png" />
+            </div>
+
+                </div>
+
         </div>
 
         <!--the menu bar-->
