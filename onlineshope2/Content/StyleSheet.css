@@ -24,6 +24,10 @@ a {
     position:absolute;
 }
 
+.floatright{
+    float:right;
+}
+
 /*header blue nav bar*/
 #bluenavigationbar {
     background-color: #1a365e;
