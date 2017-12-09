@@ -1,0 +1,32 @@
+﻿
+@font-face {
+    font-family: "BNazanin";
+    src: url(../fonts/BNazanin.woff);
+}
+
+body {
+    font-family: BNazanin;
+    /*declaring default font*/
+}
+
+/*header blue nav bar*/
+#bluenavigationbar {
+    background-color: #1a365e;
+    color: white;
+    white-space:nowrap;
+    height:30px;
+}
+
+
+/*a tags that are inside of thead blue nav bar*/
+nav#bluenavigationbar a {
+    color: white;
+    
+}
+    /*hovering over a tags of blue nav bar*/
+    nav#bluenavigationbar a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    
