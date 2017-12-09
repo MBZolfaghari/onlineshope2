@@ -131,6 +131,8 @@ nav#bluenavigationbar a {
     height:35px;
     border-radius:3px;
     direction:rtl;
+    width:90%;
+    padding-right:10px;
 }
 
 .margin15px{
