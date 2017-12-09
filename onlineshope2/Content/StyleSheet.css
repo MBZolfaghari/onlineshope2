@@ -9,12 +9,18 @@ body {
     /*declaring default font*/
 }
 
+/*all of the a tags*/
+a {
+    
+}
+
 /*header blue nav bar*/
 #bluenavigationbar {
     background-color: #1a365e;
     color: white;
     white-space:nowrap;
     height:30px;
+    
 }
 
 
@@ -29,4 +35,61 @@ nav#bluenavigationbar a {
         color: inherit;
     }
 
+/* top blue header elements*/
+.BlueHeaderElements{
+    margin-top:5px;
+    text-align:center;
+
+}
+
+
+    /*the botton for all drop down menues*/
+    .Menu{
+        position:relative;
+        display:inline;
+    }
+
+/*drop down menue it self*/
+    .dropDownMenu{
+        position:absolute;
+        display:none;
+        border:1px solid white;
+        border-bottom-left-radius:3px;
+        border-bottom-right-radius:3px;
+        border-top:none;
+    }
+
+/*dropdown menu of header bar*/
+.headerdropdownmenu{
+    top:25px;
+    left:17%;
     
+}
+
+/*menu of header*/
+.headermenu {
+    height:100%;
+/*so the drop down menu wont disapear*/
+
+
+}
+
+/*all the a tags that are inside header blue menu*/
+.headermenu a{
+    padding-right:10px;
+}
+
+
+/*drop down menu when hovered*/
+.Menu:hover .dropDownMenu {
+    display: block;
+    background-color: #1a365e;
+    color: white;
+}
+
+/*a tags that are inside of drop down menu*/
+.dropDownMenu a{
+    display:block;
+    padding:10px 10px;
+    
+}
