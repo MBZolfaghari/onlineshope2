@@ -195,7 +195,7 @@ nav#bluenavigationbar a {
         display:inline;
         border-left: 1px solid #808080;
         padding: 0 10px;
-        margin-top: 20px;
+
         text-align: center;
   
         white-space:nowrap;
@@ -230,4 +230,13 @@ nav#bluenavigationbar a {
     border-left: none;
 }
 
+
+.nav-pills > li {
+    float: right !important;
+}
+
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+        color: #fff;
+        background-color: #1a365e;
+    }
 
