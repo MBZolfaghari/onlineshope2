@@ -6,17 +6,41 @@
     <link href="Content/StyleSheet.css" type="text/css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.css" rel="stylesheet" type="text/css" />
 
+
+    <script src="Scripts/jquery-1.9.1.min.js"  crossorigin="anonymous"></script>
+    
+    <script src="Scripts/bootstrap.min.js"  crossorigin="anonymous"></script>
+
+
     <title></title>
 </head>
 <body>
     <header class="container-fluid">
         <!--the blue navigation bar-->
-        <div>
-            <nav id="bluenavigationbar">
 
+        <div class="hidden-lg hidden-md hidden-sm col-xs-12 rtl">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <ul id="site-menu" class="dropdown-menu  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><a href="#">ورود/ثبت نام</a></li>
+                    <li><a href="#">پیگیری سفارش</a></li>
+                    <li><a href="#">ارسال رایگان سفارش های بالا 50 هزار تومان</a></li>
+                    <li><a href="#">دانلود اپلیکشن مبایل</a></li>
+                    <li><a href="#">فروش در بامیلو</a></li>
+                    <li><a href="#">راهنما</a></li>
+
+
+
+                </ul>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="hidden-xs">
+            <nav id="bluenavigationbar">
                 <div class=" BlueHeaderElements Menu headermenu col-lg-1 col-md-1 col-sm-1 col-xs-1">
                     <a href="#">راهنما</a>
-
                     <div class=" dropDownMenu headerdropdownmenu ">
                         <!-- inner items of the drop down -->
                         <a href="#">ثبت نام به عنوان فروشنده</a>
@@ -24,7 +48,6 @@
                         <a href="#">دانشگاه بامیلو</a>
                     </div>
                 </div>
-
                 <!--  sales menu in bamilo -->
                 <div class="  col-lg-2 col-md-2 col-sm-2 col-xs-2 BlueHeaderElements Menu headermenu">
                     <a href="#">فروش در بامیلو</a>
@@ -40,16 +63,16 @@
                 <a class="col-lg-4 col-md-4 col-sm-4 col-xs-4 BlueHeaderElements" href="#">ارسال رایگان سفارش های بالا 50 هزار تومان</a>
                 <a class="col-lg-1 col-md-1 col-sm-1 col-xs-1 BlueHeaderElements" href="#">پیگیری سفارش</a>
                 <a class="col-lg-2 col-md-2 col-sm-2 col-xs-2 BlueHeaderElements" href="#">ورود/ثبت نام</a>
-
             </nav>
-
         </div>
+        <!-- End Menu -->
+
+
 
         <!--the search row-->
         <div class="container col-lg-8 col-lg-pull-1 col-xs-12 ">
             <!-- giving 15px margin -->
             <div class="margin15px row">
-
                 <!-- shoping area -->
                 <div class="col-lg-2 col-md-2 col-sm-2 col-sm-2 col-xs-4 col-xs-push-3 col-md-push-0 col-lg-push-0 col-sm-push-0 height35px">
                     <!-- shoping btn -->
@@ -57,7 +80,6 @@
                     <!-- shoping btn text -->
                     <span id="headershopingtext">سبد خرید</span>
                 </div>
-
                 <!-- searching bar -->
                 <div class="relative col-lg-8  col-md-8  col-sm-7 col-xs-12 height35px ">
                     <!-- search input text -->
@@ -67,37 +89,41 @@
                         جستجو
                     </button>
                 </div>
-
                 <!-- logo div -->
                 <div class="col-lg-2  col-md-2 col-sm-2 col-sm-3 col-xs-4 col-xs-push-3 col-md-push-0 col-lg-push-0 col-sm-push-0 height35px">
                     <img src="pics/bamilo-logo.png" />
                 </div>
-
             </div>
-
         </div>
         <div class="clearfix"></div>
         <!--the menu bar-->
         <div id="menubar" class="container col-lg-8 col-lg-push-2  rtl">
-            <div class="width12"><a href="#">مد و لباس</a></div>
-            <div class="width12"><a href="#">الکترونیک</a></div>
-            <div class="width12"><a href="#">لوازم خانه</a></div>
-            <div class="width12"><a href="#">زیبایی و سلامت</a></div>
-            <div class="width12"><a href="#">سرگرمی و ورزش</a></div>
-            <div class="width12"><a href="#">فرهنگ و هنر</a></div>
-            <div class="width12"><a href="#">ابزار خودرو</a></div>
-            <div class="width12"><a href="#">سوپر مارکت</a></div>
 
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">مد و لباس</a></div>
 
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">الکترونیک</a></div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">لوازم خانه</a></div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">زیبایی و سلامت</a></div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="">
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">سرگرمی و ورزش</a></div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">فرهنگ و هنر</a></div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">ابزار خودرو</a></div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 "><a href="#">سوپر مارکت</a></div>
+            </div>
 
         </div>
     </header>
-
-
-
     <section>
     </section>
-
     <footer>
     </footer>
 
