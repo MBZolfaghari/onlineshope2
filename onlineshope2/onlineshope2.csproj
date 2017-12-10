@@ -67,6 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\BNazanin.woff" />
+    <Content Include="fonts\IRANSansLight.woff" />
+    <Content Include="fonts\IRANSansMedium.woff" />
+    <Content Include="fonts\IRANSW.woff2" />
+    <Content Include="fonts\IranianSans.woff" />
     <None Include="packages.config" />
     <Content Include="pics\bamilo-logo.png" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
