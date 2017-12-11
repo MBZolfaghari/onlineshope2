@@ -73,6 +73,7 @@
     <Content Include="fonts\IranianSans.woff" />
     <None Include="packages.config" />
     <Content Include="pics\bamilo-logo.png" />
+    <Content Include="pics\favicon.ico" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
