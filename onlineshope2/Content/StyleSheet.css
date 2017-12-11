@@ -4,6 +4,10 @@
     src: url(../fonts/IranianSans.woff);
 }
 
+.height20 {
+    height: 20px;
+}
+
 body {
     font-family: IranianSans;
     /*declaring default font*/
@@ -256,4 +260,20 @@ div.whitebackground.width100 div{
 #whitemenucontent{
     padding:0 !important;
 
+}
+
+
+.carousel-control {
+    width: 0px;
+    opacity: 1;
+}
+
+#leftitemcrousel.carousel-control.left {
+    left: 9%;
+    top: 110px;
+}
+
+#rightitemcrousel.carousel-control.right  {
+    right: 9%;
+    top: 110px;
 }

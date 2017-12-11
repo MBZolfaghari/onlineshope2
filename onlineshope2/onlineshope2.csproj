@@ -72,8 +72,22 @@
     <Content Include="fonts\IRANSW.woff2" />
     <Content Include="fonts\IranianSans.woff" />
     <None Include="packages.config" />
+    <Content Include="pics\6032_1170x350_tools_v1.jpg" />
+    <Content Include="pics\6171_1170x350_hld_v1 %281%29.jpg" />
+    <Content Include="pics\6171_1170x350_hld_v1.jpg" />
+    <Content Include="pics\6173_1170x350_make-up_v1.jpg" />
+    <Content Include="pics\6175_1170x350_ikea_v1.jpg" />
     <Content Include="pics\bamilo-logo.png" />
     <Content Include="pics\favicon.ico" />
+    <Content Include="pics\item %281%29.jpg" />
+    <Content Include="pics\item %282%29.jpg" />
+    <Content Include="pics\item %283%29.jpg" />
+    <Content Include="pics\item %284%29.jpg" />
+    <Content Include="pics\moulinex-8724-6467922-1-catalog_grid_3.jpg" />
+    <Content Include="pics\nia-1183-0523891-1-catalog_grid_3.jpg" />
+    <Content Include="pics\offbox.jpg" />
+    <Content Include="pics\police-5894-7899532-1-catalog_grid_3.jpg" />
+    <Content Include="pics\samsung-1605-4174232-1-catalog_grid_3.jpg" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
