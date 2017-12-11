@@ -69,6 +69,9 @@ a , a:hover {
     direction:rtl;
 }
 
+width100 {
+    width: 100%;
+}
 /*header blue nav bar*/
 #bluenavigationbar {
     background-color: #1a365e;
@@ -240,3 +243,17 @@ nav#bluenavigationbar a {
         background-color: #1a365e;
     }
 
+    /*whiting out the white bar on the white menu bar*/
+.whitebackground.width100 {
+    height: 46px;
+}
+
+div.whitebackground.width100 div{
+    padding:5px !important;
+    border-radius:4px !important;
+}
+
+#whitemenucontent{
+    padding:0 !important;
+
+}
