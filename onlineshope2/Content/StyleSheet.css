@@ -48,6 +48,9 @@ a , a:hover {
     width:30px;
 }
 
+.width100{
+    width:100%;
+}
 
 /*absolut position*/
 .absulot {
@@ -286,4 +289,24 @@ div.whitebackground.width100 div{
 #rightitemcrousel.carousel-control.right  {
     right: 9%;
     top: 110px;
+    
+}
+
+
+.picContainer{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    justify-content:flex-start;
+
+    flex-wrap:wrap;
+    height:1000px;
+}
+.picflex {
+    flex: 1;
+    
+    display: block;
+    flex-wrap: wrap;
+    margin:10px;
 }
