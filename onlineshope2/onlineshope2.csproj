@@ -96,11 +96,38 @@
     <Content Include="pics\sandal 9 .jpg" />
     <Content Include="pics\shal 5.jpg" />
     <Content Include="pics\shaver 7.jpg" />
+    <Content Include="pics\slider pics\1.jpg" />
+    <Content Include="pics\slider pics\10.jpg" />
+    <Content Include="pics\slider pics\11.jpg" />
+    <Content Include="pics\slider pics\12.jpg" />
+    <Content Include="pics\slider pics\13.jpg" />
+    <Content Include="pics\slider pics\14.jpg" />
+    <Content Include="pics\slider pics\15.jpg" />
+    <Content Include="pics\slider pics\16.jpg" />
+    <Content Include="pics\slider pics\17.jpg" />
+    <Content Include="pics\slider pics\18.jpg" />
+    <Content Include="pics\slider pics\2.jpg" />
+    <Content Include="pics\slider pics\3.jpg" />
+    <Content Include="pics\slider pics\4.jpg" />
+    <Content Include="pics\slider pics\5.jpg" />
+    <Content Include="pics\slider pics\6.jpg" />
+    <Content Include="pics\slider pics\7.jpg" />
+    <Content Include="pics\slider pics\8.jpg" />
+    <Content Include="pics\slider pics\9.jpg" />
     <Content Include="pics\watch 8.jpg" />
     <Content Include="pics\yalda 1.jpg" />
     <Content Include="pics\yazdbuf 4 .jpg" />
     <Content Include="pics\_heater 6 .jpg" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Scripts\jquery-2.2.0.min.js" />
+    <Content Include="slick\config.rb" />
+    <Content Include="slick\fonts\slick.eot" />
+    <Content Include="slick\fonts\slick.ttf" />
+    <Content Include="slick\fonts\slick.woff" />
+    <Content Include="slick\slick-theme.less" />
+    <Content Include="slick\slick-theme.scss" />
+    <Content Include="slick\slick.less" />
+    <Content Include="slick\slick.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -129,6 +156,12 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Content\StyleSheet.css" />
+    <Content Include="slick\ajax-loader.gif" />
+    <Content Include="slick\fonts\slick.svg" />
+    <Content Include="slick\slick-theme.css" />
+    <Content Include="slick\slick.css" />
+    <Content Include="slick\slick.js" />
+    <Content Include="slick\slick.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
