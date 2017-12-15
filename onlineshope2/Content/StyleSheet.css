@@ -13,6 +13,14 @@
     height: 40px;
 }
 
+.textwhite p a, .textwhite p a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.textwhite h4 {
+    color: #f68b1e;
+}
 
 body {
     font-family: IranianSans;
@@ -22,17 +30,20 @@ body {
 }
 
 /*all of the a tags*/
-a , a:hover {
-   text-decoration:none;
-   
+a, a:hover {
+    text-decoration: none;
 }
 
-.whitebackground{
-    background-color:white;
+.whitebackground {
+    background-color: white;
 }
 
-.height130{
-    height:130px;
+.bluebackground {
+    background-color: #1a365e;
+}
+
+.height130 {
+    height: 130px;
 }
 
 .container {
@@ -40,16 +51,16 @@ a , a:hover {
 }
 
 /*relative position*/
-.relative{
-    position:relative;
+.relative {
+    position: relative;
 }
 
-.width12{
-    width:30px;
+.width12 {
+    width: 30px;
 }
 
-.width100{
-    width:100%;
+.width100 {
+    width: 100%;
 }
 
 /*absolut position*/
@@ -57,12 +68,12 @@ a , a:hover {
     position: absolute;
 }
 
-.floatright{
-    float:right;
+.floatright {
+    float: right;
 }
 
-.borderradius{
-    border-radius:4px;
+.borderradius {
+    border-radius: 4px;
 }
 
 
@@ -82,8 +93,8 @@ a , a:hover {
     height: 45px;
 }
 
-.rtl{
-    direction:rtl;
+.rtl {
+    direction: rtl;
 }
 
 width100 {
@@ -93,16 +104,14 @@ width100 {
 #bluenavigationbar {
     background-color: #1a365e;
     color: white;
-    white-space:nowrap;
-    height:30px;
-    
+    white-space: nowrap;
+    height: 30px;
 }
 
 
 /*a tags that are inside of thead blue nav bar*/
 nav#bluenavigationbar a {
     color: white;
-    
 }
     /*hovering over a tags of blue nav bar*/
     nav#bluenavigationbar a:hover {
@@ -111,49 +120,45 @@ nav#bluenavigationbar a {
     }
 
 /* top blue header elements*/
-.BlueHeaderElements{
-    margin-top:5px;
-    text-align:center;
-
+.BlueHeaderElements {
+    margin-top: 5px;
+    text-align: center;
 }
 
 
-    /*the botton for all drop down menues*/
-    .Menu{
-        position:relative;
-        display:inline;
-    }
+/*the botton for all drop down menues*/
+.Menu {
+    position: relative;
+    display: inline;
+}
 
 /*drop down menue it self*/
-    .dropDownMenu{
-        position:absolute;
-        display:none;
-        border:1px solid white;
-        border-bottom-left-radius:3px;
-        border-bottom-right-radius:3px;
-        border-top:none;
-        z-index:99;
-    }
+.dropDownMenu {
+    position: absolute;
+    display: none;
+    border: 1px solid white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: none;
+    z-index: 99;
+}
 
 /*dropdown menu of header bar*/
-.headerdropdownmenu{
-    top:25px;
-    left:17%;
-    
+.headerdropdownmenu {
+    top: 25px;
+    left: 17%;
 }
 
 /*menu of header*/
 .headermenu {
-    height:100%;
-/*so the drop down menu wont disapear*/
-
-
+    height: 100%;
+    /*so the drop down menu wont disapear*/
 }
 
-/*all the a tags that are inside header blue menu*/
-.headermenu a{
-    padding-right:10px;
-}
+    /*all the a tags that are inside header blue menu*/
+    .headermenu a {
+        padding-right: 10px;
+    }
 
 
 /*drop down menu when hovered*/
@@ -164,20 +169,19 @@ nav#bluenavigationbar a {
 }
 
 /*a tags that are inside of drop down menu*/
-.dropDownMenu a{
-    display:block;
-    padding:10px 10px;
-    
+.dropDownMenu a {
+    display: block;
+    padding: 10px 10px;
 }
 
 /*shoping btn on the top of the page*/
 #shopingbtn {
     color: white;
     background-color: #1a365e;
-    border:none;
-    height:35px;
-    width:35px;
-    border-radius:3px;
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
 }
 
 /*search btn for search box*/
@@ -188,18 +192,17 @@ nav#bluenavigationbar a {
     height: 35px;
     width: 70px;
     border-radius: 3px;
-    left:15px;
-
+    left: 15px;
 }
 
 /*search box on the top of the page*/
-#searchinputbox{
-    border:1px solid;
-    height:35px;
-    border-radius:3px;
-    direction:rtl;
-    width:90%;
-    padding-right:10px;
+#searchinputbox {
+    border: 1px solid;
+    height: 35px;
+    border-radius: 3px;
+    direction: rtl;
+    width: 90%;
+    padding-right: 10px;
 }
 
 /*for white menue bar*/
@@ -210,16 +213,13 @@ nav#bluenavigationbar a {
     vertical-align: middle;
 }
 
-/*a tags inside of menu*/
+    /*a tags inside of menu*/
     #menubar div a {
-        display:inline;
+        display: inline;
         border-left: 1px solid #808080;
         padding: 0 10px;
-
         text-align: center;
-  
-        white-space:nowrap;
-
+        white-space: nowrap;
     }
 
     /*for the 2 tags that are inside of the menu bar*/
@@ -227,28 +227,29 @@ nav#bluenavigationbar a {
         display: inline;
         padding: 0;
         background-color: white;
-        border:1px solid #808080;
-    }
-    #menubar div:last-child{
-        border-left:none;
+        border: 1px solid #808080;
     }
 
-    #menubar div:first-child{
-        border-right:none;
-    }
+        #menubar div:last-child {
+            border-left: none;
+        }
 
-/* for the links inside of the each of the 2 divs of the white menu bar*/
-    #menubar div div {
-        display: inline;
-        background-color:white;
-        border:10px white solid;
-    }
+        #menubar div:first-child {
+            border-right: none;
+        }
 
-/*last a tag should not have left border*/
-#menubar div div a:last-child {
-    padding:10px;
-    border-left: none;
-}
+        /* for the links inside of the each of the 2 divs of the white menu bar*/
+        #menubar div div {
+            display: inline;
+            background-color: white;
+            border: 10px white solid;
+        }
+
+            /*last a tag should not have left border*/
+            #menubar div div a:last-child {
+                padding: 10px;
+                border-left: none;
+            }
 
 
 .nav-pills > li {
@@ -260,19 +261,18 @@ nav#bluenavigationbar a {
         background-color: #1a365e;
     }
 
-    /*whiting out the white bar on the white menu bar*/
+/*whiting out the white bar on the white menu bar*/
 .whitebackground.width100 {
     height: 46px;
 }
 
-div.whitebackground.width100 div{
-    padding:5px !important;
-    border-radius:4px !important;
+div.whitebackground.width100 div {
+    padding: 5px !important;
+    border-radius: 4px !important;
 }
 
-#whitemenucontent{
-    padding:0 !important;
-
+#whitemenucontent {
+    padding: 0 !important;
 }
 
 
@@ -286,41 +286,38 @@ div.whitebackground.width100 div{
     top: 110px;
 }
 
-#rightitemcrousel.carousel-control.right  {
+#rightitemcrousel.carousel-control.right {
     right: 9%;
     top: 110px;
-    
 }
 
 
-.picContainer{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    align-items:flex-start;
-    justify-content:flex-start;
-
-    flex-wrap:wrap;
-    height:1000px;
+.picContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 1000px;
 }
+
 .picflex {
     flex: 1;
-    
     display: block;
     flex-wrap: wrap;
-    margin:10px;
+    margin: 10px;
 }
 
 
 
-.border{
-    border:solid 1px black;
+.border {
+    border: solid 1px black;
 }
 
 
-#whitebarendofpage{
-    height:100px;
-
+#whitebarendofpage {
+    height: 100px;
 }
 
 
@@ -356,14 +353,35 @@ html, body {
 
 .slick-slide {
     transition: all ease-in-out .3s;
-
 }
 
 .slick-active {
-
 }
 
 .slick-current {
     opacity: 1;
 }
 
+#emailbox {
+    width: 99%;
+    border-radius: 3px;
+}
+
+#Submitemailbtn {
+    color: white;
+    background-color: #1a365e;
+    border: none;
+    height: 23px;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+}
+
+#emailbox {
+    text-align: right;
+    direction: rtl;
+}
+
+.marginright {
+    margin-right: 10%;
+}
