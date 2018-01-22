@@ -361,8 +361,7 @@ html, body {
     transition: all ease-in-out .3s;
 }
 
-.slick-active {
-}
+
 
 .slick-current {
     opacity: 1;
