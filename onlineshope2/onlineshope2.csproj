@@ -74,7 +74,8 @@
     <Content Include="fonts\IranianSans.woff" />
     <Content Include="config.rb" />
     <None Include="packages.config" />
-    <Content Include="product.html" />
+    <Content Include="pics\product\Apple-iPhone-X-256GB-Mobile-Phone-1fbd5a.jpg" />
+    <Content Include="Product.html" />
     <Content Include="pics\6032_1170x350_tools_v1.jpg" />
     <Content Include="pics\6171_1170x350_hld_v1 %281%29.jpg" />
     <Content Include="pics\6171_1170x350_hld_v1.jpg" />
