@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ajax-loader.gif" />
+    <Content Include="Content\w3.css" />
     <Content Include="fonts\BNazanin.woff" />
     <Content Include="fonts\IRANSansLight.woff" />
     <Content Include="fonts\IRANSansMedium.woff" />
