@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="fa" />
+    <link href="Content/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="Content/StyleSheet.css" type="text/css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Scripts/jquery-2.2.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <title>Bamilo</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <!--the blue navigation bar-->
+        <div class="hidden-lg hidden-md hidden-sm col-xs-12 rtl">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <ul id="site-menu" class="dropdown-menu  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <li><a href="#">ورود/ثبت نام</a></li>
+                    <li><a href="#">پیگیری سفارش</a></li>
+                    <li><a href="#">ارسال رایگان سفارش های بالا 50 هزار تومان</a></li>
+                    <li><a href="#">دانلود اپلیکشن مبایل</a></li>
+                    <li><a href="#">فروش در بامیلو</a></li>
+                    <li><a href="#">راهنما</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="hidden-xs">
+            <nav id="bluenavigationbar">
+                <div class=" BlueHeaderElements Menu headermenu col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                    <a href="#">راهنما</a>
+                    <div class=" dropDownMenu headerdropdownmenu ">
+                        <!-- inner items of the drop down -->
+                        <a href="#">ثبت نام به عنوان فروشنده</a>
+                        <a href="#">ورود به پنل فروشندگان</a>
+                        <a href="#">دانشگاه بامیلو</a>
+                    </div>
+                </div>
+                <!--  sales menu in bamilo -->
+                <div class="  col-lg-2 col-md-2 col-sm-2 col-xs-2 BlueHeaderElements Menu headermenu">
+                    <a href="#">فروش در بامیلو</a>
+                    <div class=" dropDownMenu headerdropdownmenu ">
+                        <!-- inner items of the drop down -->
+                        <a href="#">ثبت نام به عنوان فروشنده</a>
+                        <a href="#">ورود به پنل فروشندگان</a>
+                        <a href="#">دانشگاه بامیلو</a>
+                    </div>
+                </div>
+                <!-- header links -->
+                <a class="col-lg-2 col-md-2 col-sm-2 col-xs-2 BlueHeaderElements" href="#">دانلود اپلیکشن مبایل</a>
+                <a class="col-lg-4 col-md-4 col-sm-4 col-xs-4 BlueHeaderElements" href="#">ارسال رایگان سفارش های بالا 50 هزار تومان</a>
+                <a class="col-lg-1 col-md-1 col-sm-1 col-xs-1 BlueHeaderElements" href="#">پیگیری سفارش</a>
+                <a class="col-lg-2 col-md-2 col-sm-2 col-xs-2 BlueHeaderElements" href="#">ورود/ثبت نام</a>
+            </nav>
+        </div>
+        <!-- End Menu -->
+        <!--the search row-->
+        <div class="container col-lg-8 col-lg-pull-1 col-xs-12 margin15px ">
+            <!-- giving 15px margin -->
+            <!-- shoping area -->
+            <div class="col-lg-2 col-md-2 col-sm-2 col-sm-2 col-xs-6 col-md-push-0 col-lg-push-0 col-sm-push-0 height35px">
+                <!-- shoping btn -->
+                <button id="shopingbtn" class="glyphicon glyphicon-shopping-cart "></button>
+                <!-- shoping btn text -->
+                <span id="headershopingtext">سبد خرید</span>
+            </div>
+
+            <!-- logo div -->
+            <div class="hidden-lg hidden-md hidden-sm col-xs-6 height35px">
+                <img class="" src="pics/bamilo-logo.png" />
+            </div>
+
+            <!-- searching bar -->
+            <div class="relative col-lg-8  col-md-8  col-sm-7 col-xs-12 height35px ">
+                <!-- search input text -->
+                <input id="searchinputbox" class="absulot" type="text" placeholder="جستجوی نام،برند، یا دستبندی کالا" />
+                <!-- searchoutput text -->
+                <button id="searchbtn" class="absulot  ">
+                    جستجو
+                </button>
+            </div>
+            <!-- logo div -->
+            <div class="col-lg-2  col-md-2 col-sm-2 col-sm-3 hidden-xs col-md-push-0 col-lg-push-0 col-sm-push-0 height35px">
+                <img class="" src="pics/bamilo-logo.png" />
+            </div>
+
+        </div>
+        <div class="clearfix"></div>
+
+
+        <div class="whitebackground width100">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 whitebackground">
+
+                <!-- Nav pills -->
+                <ul class="nav nav-pills">
+                    <li class="active"><a href="#tab-1" data-toggle="tab">مد و لباس</a></li>
+                    <li><a href="#tab-2" data-toggle="tab">الکترونیک</a></li>
+                    <li><a href="#tab-3" data-toggle="tab">لوازم خانه</a></li>
+                    <li><a href="#tab-4" data-toggle="tab">زیبایی و سلامت</a></li>
+                    <li><a href="#tab-6" data-toggle="tab">سرگرمی و ورزش</a></li>
+                    <li><a href="#tab-7" data-toggle="tab">فرهنگ و هنر</a></li>
+                    <li><a href="#tab-8" data-toggle="tab">ابزار خودرو</a></li>
+                    <li><a href="#tab-9" data-toggle="tab">سوپر مارکت</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div id="whitemenucontent" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+            <!-- Tab panes -->
+            <div class="tab-content well">
+                <div class="tab-pane active" id="tab-1">Content 1</div>
+                <div class="tab-pane" id="tab-2">Content 2</div>
+                <div class="tab-pane" id="tab-3">Content 3</div>
+                <div class="tab-pane" id="tab-4">Content 4</div>
+                <div class="tab-pane" id="tab-5">Content 5</div>
+                <div class="tab-pane" id="tab-6">Content 6</div>
+                <div class="tab-pane" id="tab-7">Content 7</div>
+                <div class="tab-pane" id="tab-8">Content 8</div>
+                <div class="tab-pane" id="tab-9">Content 9</div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="productcontainer">
+
+        <!-- aboutus div begin -->
+        <div class="container-fluid col-lg-8  col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12  col-xs-12 whitebackground rtl ">
+
+            <div class="height20 heightauto clear"></div>
+            <div class="pull-right">
+            <p class="h5">
+                بی صبرانه منتظر شنیدن نظرات و پیشنهادات شما هستیم.<br />
+                لطفا درصورت وجود هرگونه سوال یا مشکلی با خدمات مشتریان ما تماس بگیرید:
+            </p>
+            <p class="h5">هفت روز هفته</p>
+            <p class="h5">۲۴ ساعت شبانه روز</p>
+            <p class="h5">تلفن: ۴۱۶۸۷۰۰۰-۰۲۱</p>
+            <p class="h5">ایمیل: support@bamilo.com</p>
+                </div>
+            <img src="pics/contact-us.jpg" class="pull-left"/>
+        </div>
+        <!-- aboutus div end -->
+
+
+
+    </div>
+
+    <div class="height20 clear"></div>
+
+    <div class="height20"></div>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        <div class="whitebackground container-fluid">
+
+            <div class=" container-fluid col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1
+                col-xs-12 whitebackground ">
+
+                <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+
+                    <div class="row pull-right col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 text-right marginright  ">
+                        <h5>اولین باشید</h5>
+                        <p>اطلاع از تازه ها و تخفیف های بامیلو</p>
+
+                        <!-- searching bar -->
+                        <div id="" class="relative height35px">
+                            <!-- search input text -->
+                            <input id="emailbox" class="" type="text" placeholder="ایمیل خود را وارد کنید" />
+                            <!-- searchoutput text -->
+                            <button id="Submitemailbtn" class="absulot  ">
+                                ارسال
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="text-right right container-fluid">
+
+                        <h5>بامیلو در جیب شما!</h5>
+                        نرم افزار موبایل ما را دریافت کنید و در هر جایی که هستید خرید کنید.
+                    </div>
+
+                    <div>
+                        <div><a style="font-size: larger" class="glyphicon glyphicon-download"></a>دانلود اپلیکیشن اندروید</div>
+
+                        <div><a style="font-size: larger;" class="glyphicon glyphicon-download"></a>دانلود اپلیکیشن اپل(ios)</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!--  -->
+
+        </div>
+
+        <div class="container-fluid bluebackground">
+            <div class=" container-fluid col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1
+                col-xs-12 bluebackground margintop ">
+
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                    <img class=" " src="pics/footerlogo/logo1 .png" />
+                    <img class=" " src="pics/footerlogo/logo2.png" />
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right textwhite">
+                    <h4>درباره بامیلو</h4>
+                    <p><a href="#">درباره ما</a></p>
+                    <p><a href="#">تماس با ما</a></p>
+                    <p><a href="#">همکاری با ما</a></p>
+                    <p><a href="#">فروش عمده و سازمانی</a></p>
+                    <p><a href="#">ثبت نام تامین کنندگان </a></p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right textwhite">
+                    <h4>خدمات مشتریان</h4>
+                    <p><a href="#">راهنمای انتخاب سایز</a></p>
+                    <p><a href="#">شرایط حمل و تحویل کالا</a></p>
+                    <p><a href="#">شرایط استفاده از کوپن تخفیف</a></p>
+                    <p><a href="#">سیاست حفظ حریم خصوصی</a></p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- 2nd slider script begin -->
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+        $('.responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            adaptiveHeight: false,
+            responsive: [
+                {
+
+                    breakpoint: 1170,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    },
+
+
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+    </script>
+    <!-- 2nd slider script end -->
+
+
+</body>
+</html>

@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact-us.html" />
     <Content Include="ajax-loader.gif" />
     <Content Include="fonts\BNazanin.woff" />
     <Content Include="fonts\IRANSansLight.woff" />
@@ -74,8 +75,10 @@
     <Content Include="fonts\IranianSans.woff" />
     <Content Include="config.rb" />
     <None Include="packages.config" />
+    <Content Include="pics\contact-us.jpg" />
     <Content Include="pics\galaxys8.jpg" />
     <Content Include="pics\product\Apple-iPhone-X-256GB-Mobile-Phone-1fbd5a.jpg" />
+    <Content Include="about-us.html" />
     <Content Include="Product.html" />
     <Content Include="pics\6032_1170x350_tools_v1.jpg" />
     <Content Include="pics\6171_1170x350_hld_v1 %281%29.jpg" />
